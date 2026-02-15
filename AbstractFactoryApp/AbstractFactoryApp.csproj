@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="PagSeguro\" />
-    <Folder Include="Stripe\" />
-    <Folder Include="MercadoPago\" />
-  </ItemGroup>
-
 </Project>

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace AbstractFactoryApp.Interfaces
 {
-    internal interface IPaymentService
+    public interface IPaymentService
     {
+        void ProcessPayment(decimal amount, string cardNumber);
     }
 }

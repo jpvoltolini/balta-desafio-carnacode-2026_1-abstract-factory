@@ -6,5 +6,6 @@ namespace AbstractFactoryApp.Interfaces
 {
     public interface IPaymentValidator
     {
+        bool ValidateCard(string cardNumber);
     }
 }

@@ -6,5 +6,6 @@ namespace AbstractFactoryApp.Interfaces
 {
     public interface IPaymentLogger
     {
+        void Log(string message);
     }
 }
